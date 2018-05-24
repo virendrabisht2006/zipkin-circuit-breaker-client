@@ -4,10 +4,10 @@ spring:
   zipkin:
     base-url: http://localhost:8600
  sleuth:
-    sampler:
-      percentage: 1.0
-    scheduled:
-      skip-pattern: org.springframework.cloud.consul.discovery.ConsulCatalogWatch
+  sampler:
+    percentage: 1.0
+  scheduled:
+    skip-pattern: org.springframework.cloud.consul.discovery.ConsulCatalogWatch
 
 server:
   port: 8500
