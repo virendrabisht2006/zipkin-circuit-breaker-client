@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: zipkin-client
+  zipkin:
+    base-url: http://localhost:8600
+
+server:
+  port: 8500
+
+metrics:
+ enabled: true
